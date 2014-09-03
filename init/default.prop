@@ -1,0 +1,18 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.com.google.clientidbase=android-google
+ro.sf.lcd_density=240
+panel.physicalWidthmm=57.996
+panel.physicalHeightmm=103.104
+ro.opengles.version=131072
+gsm.net.interface=rmnet0
+persist.system.at-proxy.mode=0
+ro.secure=0
+ro.allow.mock.location=1
+ro.debuggable=1
+service.adb.root=1
+persist.service.adb.root=1
+persist.ril-daemon.disable=0
+persist.radio.ril_modem_state=1
+persist.sys.usb.config=mtp,adb

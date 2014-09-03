@@ -1,0 +1,14 @@
+# Aliases extracted from modules themselves.
+alias platform:bcm43xx bcm_bt_lpm
+alias pci:v00008086d00001178sv*sd*bc*sc*i* atomisp
+alias pci:v00008086d000008D0sv*sd*bc*sc*i* atomisp
+alias pci:v00008086d0000014Fsv*sd*bc*sc*i* atomisp
+alias pci:v00008086d0000014Esv*sd*bc*sc*i* atomisp
+alias pci:v00008086d0000014Dsv*sd*bc*sc*i* atomisp
+alias pci:v00008086d0000014Csv*sd*bc*sc*i* atomisp
+alias pci:v00008086d0000014Bsv*sd*bc*sc*i* atomisp
+alias pci:v00008086d0000014Asv*sd*bc*sc*i* atomisp
+alias pci:v00008086d00000149sv*sd*bc*sc*i* atomisp
+alias pci:v00008086d00000148sv*sd*bc*sc*i* atomisp
+alias i2c:imx111 imx1x5
+alias i2c:imx175 imx1x5

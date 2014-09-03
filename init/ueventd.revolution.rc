@@ -1,0 +1,38 @@
+# Put Matrix driver device interface to diag grp
+/dev/matrix                             0640   root       diag
+
+# modem tty node change to radio user can read and write
+/dev/gsmtty*                            0660   radio      system
+/dev/ttyMFD*                            0660   radio      system
+
+# Audience device to audio group
+/dev/audience_es305                     0770   audio      audio
+/dev/intel_sst_ctrl                     0600   media      media
+
+# Permissions for audio and camera
+/dev/video*                             0666   root       camera
+/dev/v4l-subdev*                        0666   root       camera
+/dev/media*                             0666   root       camera
+/dev/snd/*                              0666   system     audio
+/dev/gsmtty20							0666   radio      system
+
+# Intel SCU watchdog
+/dev/watchdog                           0600   system     system
+
+# Device needed by shared transport layer (used by bluetooth, FM and GPS)
+/dev/rfkill                             0660   bluetooth  bluetooth
+/dev/hci_tty                            0660   bluetooth  bluetooth
+/dev/ttyMFD0                            0660   bluetooth  net_bt_stack
+/dev/ttyS1                              0660   bluetooth  bluetooth
+
+# Device needed by security functionalities
+/dev/sep_sec_driver                     0660   system     system
+/dev/mei                                0660   system     system
+/dev/meimm                              0660   system     system
+
+# Android sync framework sw driver
+/dev/sw_sync                            0660   system     system
+
+# HSIC interfaces should only be readable for other
+/sys/devices/pci* hsic_enable           0664   root       system
+/sys/devices/pci* L2_autosuspend_enable 0664   root       system

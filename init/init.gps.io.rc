@@ -1,0 +1,8 @@
+on post-fs
+
+    # nStandby GPIO
+    write /sys/class/gpio/export 59
+    write /sys/class/gpio/gpio59/direction low
+    write /sys/class/gpio/gpio59/value 0
+    chmod 0660 /sys/class/gpio/gpio59/value
+    chown system system /sys/class/gpio/gpio59/value

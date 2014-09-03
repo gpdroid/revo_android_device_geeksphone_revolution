@@ -1,0 +1,12 @@
+videobuf-vmalloc.ko: videobuf-core.ko
+bcm_bt_lpm.ko:
+sgx.ko:
+videobuf-core.ko:
+sep3_10.ko:
+vtsspp.ko:
+pax.ko:
+atomisp.ko: videobuf-vmalloc.ko videobuf-core.ko
+scsi_wait_scan.ko:
+cfg80211.ko:
+imx1x5.ko:
+mac80211.ko: cfg80211.ko

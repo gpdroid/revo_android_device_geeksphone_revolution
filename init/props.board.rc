@@ -1,0 +1,10 @@
+# Revolution specific SPID based properties
+
+# Borqs:Intel:*:Clovertrail:Revolution:*
+on property:ro.boot.spid=0000:4251:*:0002:?643:*
+#	setprop ro.spid.telephony.rxdiv 1
+	setprop ro.spid.gps.tty ttyMFD3 
+on property:ro.boot.lcdsize=0720x1280
+	setprop ro.sf.lcd_density 320
+on property:ro.boot.lcdsize=0540x0960
+	setprop ro.sf.lcd_density 240
