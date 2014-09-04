@@ -151,7 +151,6 @@ system/etc/firmware/modem/modem_version
 system/etc/firmware/modem/modem.zip
 
 # system/etc/permissions
-system/etc/permissions/com.google.widevine.software.drm.xml
 system/etc/permissions/com.intel.camera.extensions.xml
 system/etc/permissions/com.intel.internal.telephony.MmgrClient.xml
 system/etc/permissions/com.intel.internal.telephony.OemTelephony.xml
@@ -171,7 +170,6 @@ system/etc/widi/widi.conf
 # system/lib/framework
 system/framework/com.android.future.usb.accessory.jar
 system/framework/com.android.location.provider.jar
-system/framework/com.google.widevine.software.drm.jar
 system/framework/com.intel.camera.extensions.jar
 system/framework/com.intel.internal.telephony.OemTelephony.jar
 system/framework/com.intel.multidisplay.jar
