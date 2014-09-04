@@ -264,14 +264,14 @@ system/lib/hw/lights.revolution.so
 system/lib/hw/sensors.revolution.so
 system/lib/hw/vibrator.revolution.so
 
-# system/lib/hw/parameter-framework-plugins
-system/lib/hw/parameter-framework-plugins/Audio/libaudience-subsystem.so
-system/lib/hw/parameter-framework-plugins/Audio/libimc-subsystem.so
-system/lib/hw/parameter-framework-plugins/Audio/liblpe-subsystem.so
-system/lib/hw/parameter-framework-plugins/Audio/libtinyalsactl-subsystem.so
-system/lib/hw/parameter-framework-plugins/Audio/libtinyamixer-subsystem.so
-system/lib/hw/parameter-framework-plugins/Fs/libfs-subsystem.so
-system/lib/hw/parameter-framework-plugins/System/libproperty-subsystem.so
+# system/lib/parameter-framework-plugins
+system/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so
+system/lib/parameter-framework-plugins/Audio/libimc-subsystem.so
+system/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so
+system/lib/parameter-framework-plugins/Audio/libtinyalsactl-subsystem.so
+system/lib/parameter-framework-plugins/Audio/libtinyamixer-subsystem.so
+system/lib/parameter-framework-plugins/Fs/libfs-subsystem.so
+system/lib/parameter-framework-plugins/System/libproperty-subsystem.so
 
 
 # PVR
@@ -308,7 +308,7 @@ system/usr/keylayout/Vendor_22b8_Product_093d.kl
 system/usr/share/alsa/alsa.conf
 system/usr/share/bmd/RFFspeed_501.bmd
 system/usr/share/bmd/RFFstd_501.bmd
-system/usr/share/zoninfo/tzdata
+system/usr/share/zoneinfo/tzdata
 
 # system/vendor
-system/vendor/libbt-vendor.so
+system/vendor/lib/libbt-vendor.so
