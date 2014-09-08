@@ -1,23 +1,23 @@
 # system/bin
+system/bin/bd_prov
+system/bin/fg_conf
+system/bin/gpsd
 system/bin/load_bcmdriver
 system/bin/mmgr
 system/bin/rild
 system/bin/wlan_prov
-system/bin/gpsd
-system/bin/fg_conf
-system/bin/bd_prov
 
 # system/etc
-system/etc/asound-vv.conf
 system/etc/asound.conf
+system/etc/asound-vv.conf
 system/etc/audio_effects.conf
 system/etc/audio_policy.conf
-#system/etc/camera_profiles.xml
+system/etc/camera_profiles.xml
 system/etc/fg_config.bin
 system/etc/gps.conf
 system/etc/gps.xml
-#system/etc/media_codecs.xml
-#system/etc/media_profiles.xml
+system/etc/media_codecs.xml
+system/etc/media_profiles.xml
 system/etc/phonecall_es305b_bt_carkit_csv_nb.bin
 system/etc/phonecall_es305b_bt_carkit_csv_wb.bin
 system/etc/phonecall_es305b_bt_carkit_voip_nb.bin
@@ -73,6 +73,8 @@ system/etc/bluetooth/bt_vendor.conf
 system/etc/init.d/91fixoverlays
 
 # system/etc/parameter-framework
+system/etc/parameter-framework/ParameterFrameworkConfigurationVibrator.xml
+system/etc/parameter-framework/ParameterFrameworkConfiguration.xml
 system/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml
 system/etc/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml
 system/etc/parameter-framework/Structure/Audio/AudienceSubsystem.xml
@@ -87,8 +89,6 @@ system/etc/parameter-framework/Structure/Audio/LPESubsystem.xml
 system/etc/parameter-framework/Structure/Audio/SysfsPmdownTimeSubsystem.xml
 system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml
 system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml
-system/etc/parameter-framework/ParameterFrameworkConfiguration.xml
-system/etc/parameter-framework/ParameterFrameworkConfigurationVibrator.xml
 
 # system/etc/wifi
 system/etc/wifi/bcmdhd_4330.cal
@@ -186,12 +186,11 @@ system/lib/libaudioutils.so
 system/lib/libbt-hci.so
 system/lib/libbt-utils.so
 system/lib/libdrm.so
-system/lib/libtbd.so
 system/lib/libevent-listener.so
 system/lib/libglib-2.0.so
 system/lib/libhwcwidi.so
-system/lib/libia_aiq.so
 system/lib/libia_aiq_cp.so
+system/lib/libia_aiq.so
 system/lib/libia_mkn.so
 system/lib/libia_nvm.so
 system/lib/libintelcamera_jni.so
@@ -200,15 +199,15 @@ system/lib/libinterface-provider-lib.so
 system/lib/libinterface-provider.so
 system/lib/libmamgr-xmm.so
 system/lib/libmfldadvci.so
-system/lib/libmixvbp.so
 system/lib/libmixvbp_h264.so
 system/lib/libmixvbp_mpeg4.so
+system/lib/libmixvbp.so
 system/lib/libmixvbp_vc1.so
 system/lib/libmmgrcli.so
-system/lib/libmultidisplay.so
 system/lib/libmultidisplayjni.so
-system/lib/libOMXVideoDecoderAVC.so
+system/lib/libmultidisplay.so
 system/lib/libOMXVideoDecoderAVCSecure.so
+system/lib/libOMXVideoDecoderAVC.so
 system/lib/libOMXVideoDecoderH263.so
 system/lib/libOMXVideoDecoderMPEG4.so
 system/lib/libOMXVideoDecoderWMV.so
@@ -221,21 +220,22 @@ system/lib/librapid-ril-core.so
 system/lib/librapid-ril-util.so
 system/lib/libreference-ril.so
 system/lib/libril.so
-system/lib/libsepdrm.so
 system/lib/libsepdrmjni.so
+system/lib/libsepdrm.so
 system/lib/libsepipt.so
 system/lib/libSh3aParamsAbicoFI86A086.so
 system/lib/libSh3aParamsimx111.so
 system/lib/libSh3aParamsov9724.so
 system/lib/libstagefrighthw.so
+system/lib/libtbd.so
 system/lib/libtinyalsa.so
 system/lib/libtinycompress.so
 system/lib/libva-android.so
-system/lib/libva-tpi.so
+system/lib/libvariablespeed.so
 system/lib/libva.so
+system/lib/libva-tpi.so
 system/lib/libva_videodecoder.so
 system/lib/libva_videoencoder.so
-system/lib/libvariablespeed.so
 system/lib/libwidiclient.so
 system/lib/libwidimedia.so
 system/lib/libwidirtsp.so
@@ -247,14 +247,14 @@ system/lib/libwsbm.so
 # system/lib/hw
 system/lib/hw/audio.codec_offload.revolution.so
 system/lib/hw/audio.hs_usb.revolution.so
+system/lib/hw/audio_policy.default.so
+system/lib/hw/audio_policy.revolution.so
 system/lib/hw/audio.primary.default.so
 system/lib/hw/audio.primary.goldfish.so
 system/lib/hw/audio.primary.revolution.so
 system/lib/hw/audio.r_submix.default.so
 system/lib/hw/audio.usb.default.so
 system/lib/hw/audio.widi.revolution.so
-system/lib/hw/audio_policy.default.so
-system/lib/hw/audio_policy.revolution.so
 system/lib/hw/camera.revolution.so
 system/lib/hw/gps.revolution.so
 system/lib/hw/hwcomposer.revolution.so
@@ -277,6 +277,10 @@ system/lib/libpvr2d.so
 system/lib/libsrv_um.so
 system/lib/pvr_drv_video.so
 system/vendor/bin/pvrsrvctl
+system/vendor/lib/egl/libEGL_POWERVR_SGX544_115.so
+system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_115.so
+system/vendor/lib/egl/libGLESv2_POWERVR_SGX544_115.so
+system/vendor/lib/hw/gralloc.revolution.so
 system/vendor/lib/libglslcompiler.so
 system/vendor/lib/libIMGegl.so
 system/vendor/lib/liboclcompiler.so
@@ -287,10 +291,6 @@ system/vendor/lib/libPVRScopeServices.so
 system/vendor/lib/libsrv_init.so
 system/vendor/lib/libsrv_um.so
 system/vendor/lib/libusc.so
-system/vendor/lib/hw/gralloc.revolution.so
-system/vendor/lib/egl/libEGL_POWERVR_SGX544_115.so
-system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_115.so
-system/vendor/lib/egl/libGLESv2_POWERVR_SGX544_115.so
 
 # system/usr
 system/usr/keylayout/cloverview_audio_Intel_MID_Audio_Jack.kl
@@ -299,8 +299,8 @@ system/usr/keylayout/intel_short_long_press.kl
 system/usr/keylayout/KEYPAD.kl
 system/usr/keylayout/mrst_keypad.kl
 system/usr/keylayout/mxt224_key_0.kl
-system/usr/keylayout/rmi4_key.kl
 system/usr/keylayout/rmi4_key_gff.kl
+system/usr/keylayout/rmi4_key.kl
 system/usr/keylayout/Vendor_05ac_Product_0239.kl
 system/usr/keylayout/Vendor_22b8_Product_093d.kl
 system/usr/share/alsa/alsa.conf
