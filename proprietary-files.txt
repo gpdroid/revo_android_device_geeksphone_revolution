@@ -167,7 +167,7 @@ system/etc/telephony/mmgr.conf
 # system/etc/widi
 system/etc/widi/widi.conf
 
-# system/lib/framework
+# system/framework
 system/framework/com.android.future.usb.accessory.jar
 system/framework/com.android.location.provider.jar
 system/framework/com.intel.camera.extensions.jar
