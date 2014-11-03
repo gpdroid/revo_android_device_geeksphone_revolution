@@ -1,6 +1,6 @@
 #!/bin/bash
 ./adb reboot bootloader
-./fastboot flash boot boot_signed.bin
+./fastboot flash boot boot_signed.img
 if [ -f system.img ]; then
 	if [ -f system.img.gz ]; then
 		rm system.img.gz
